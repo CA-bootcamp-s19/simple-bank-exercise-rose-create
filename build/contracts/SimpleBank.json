@@ -4076,6 +4076,70 @@
     "version": "0.6.0+commit.26b70077.Emscripten.clang"
   },
   "networks": {
+    "5777": {
+      "events": {
+        "0xa8126f7572bb1fdeae5b5aa9ec126438b91f658a07873f009d041ae690f3a193": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "accountAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogDepositMade",
+          "type": "event"
+        },
+        "0x990c442e6adb818b8fa7db3cf1023decd07f7b66e5306928c7ed527d974192bb": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "accountAddress",
+              "type": "address"
+            }
+          ],
+          "name": "LogEnrolled",
+          "type": "event"
+        },
+        "0xf9226daf630542048a23086c6af599511aac100ec8f532793cc9697d061bed7e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "accountAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "withdrawAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "newBalance",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogWithdrawal",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xEF00059AAc592d1427087C1f4589fd4B8872997E",
+      "transactionHash": "0x9e7238adcea9fca8e4eb432ae3450bfc2b1a874b747456b2c8c1b2957765e1f8"
+    },
     "1607783003866": {
       "events": {
         "0xa8126f7572bb1fdeae5b5aa9ec126438b91f658a07873f009d041ae690f3a193": {
@@ -4142,7 +4206,7 @@
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-12T20:09:43.538Z",
+  "updatedAt": "2020-12-14T13:02:25.107Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
